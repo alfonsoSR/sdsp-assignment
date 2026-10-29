@@ -1,0 +1,178 @@
+# Generated files
+examples
+tests/data/
+lib/
+libs/
+CMakeFiles/
+_CPack_Packages/
+CMakeCache.txt
+CPackConfig.cmake
+CPackSourceConfig.cmake
+cmake_install.cmake
+install_manifest.txt
+boost-numpy-eigen-*-Linux.deb
+boost-numpy-eigen-*-Linux.sh
+boost-numpy-eigen-*-Linux.tar.Z
+boost-numpy-eigen-*-Linux.tar.gz
+*.o
+*.so
+978-1-4614-6859-2_14.pdf
+
+# Common build output folders
+cmake-build-debug/
+cmake-build-release/
+build/
+.build/
+cmake_build-debug/
+cmake_build-release/
+cmake-build-*/
+
+# IDE project files
+.idea/
+.project
+.cproject
+.settings/
+.pydevproject
+*.sublime-project
+*.sublime-workspace
+# Rever
+rever/
+
+__pycache__/*
+__pycache__*
+.DS_Store
+
+
+#__----------------------------------------
+# From tudat-bundle (to be refactored)
+
+# Generated files
+lib/
+libs/
+CMakeFiles/
+_CPack_Packages/
+Makefile
+CMakeCache.txt
+CPackConfig.cmake
+CPackSourceConfig.cmake
+cmake_install.cmake
+install_manifest.txt
+boost-numpy-eigen-*-Linux.deb
+boost-numpy-eigen-*-Linux.sh
+boost-numpy-eigen-*-Linux.tar.Z
+boost-numpy-eigen-*-Linux.tar.gz
+*.o
+*.so
+**/.DS_Store
+.DS_Store
+
+# Common build output folders
+cmake-build-debug/
+cmake-build-release/
+build/
+.build/
+cmake_build-debug/
+cmake_build-release/
+cmake-build-*/
+
+# IDE project files
+.idea/
+.project
+.cproject
+.settings/
+.pydevproject
+*.sublime-project
+*.sublime-workspace
+# Rever
+rever/
+/.docs-output
+# VSCode
+.vscode/
+
+# Worktrees
+.worktrees/
+worktrees/
+
+# Cache
+**/**.pyc
+
+# JSON
+json.json
+
+# Fortran module files
+*.mod
+*.smod
+# -------------------------------------------------------------------------
+# From tudat (to be refactored)
+
+#
+# cmake
+#
+CMakeCache.txt
+CMakeLists.txt.user
+CMakeFiles
+CMakeScripts
+cmake_install.cmake
+install_manifest.txt
+
+#.
+# C++
+#
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.sh
+
+#
+# Build and doxygen related
+#
+Documentation/
+docs/doxygen/html/
+docs/doxygen/latex/
+docs/doxygen/xml/
+build*/
+bin/
+lib/
+
+#
+# Editor related
+#
+*~
+*#
+.#*
+*.autosave
+*.~?~
+*.save
+.DS_Store
+/.idea/*
+/cmake-build-debug/*
+/cmake-build*
+*.vscode
+.cache/
+*.egg-info/
+_version.py

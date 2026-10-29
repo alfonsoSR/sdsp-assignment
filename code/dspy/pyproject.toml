@@ -1,0 +1,35 @@
+[build-system]
+requires = [
+    "setuptools>=80",
+    "setuptools-scm>=8"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dspy"
+dynamic = [
+    "version"
+]
+description = ""
+authors = [
+    { name = "Alfonso Sánchez Rodríguez", email = "a.sanchezrodriguez@tudelft.nl" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "astropy",
+    "numpy",
+    "scipy",
+    "matplotlib"
+]
+
+[tool.setuptools.packages.find]
+where = [
+    "src"
+]
+
+[tool.setuptools_scm]
+version_file = "src/dspy/_version.py"
+
+[tool.setuptools_scm.scm.git]
+pre_parse = "fail_on_missing_submodules"
+describe_command = "git describe --dirty --tags --long --exclude *js*"
